@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif
+}
+
+.background_text{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.idk_text p{
+    color: rgb(17, 17, 17);
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 800px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.background_text h2{
+    color: rgb(255, 107, 41);
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px;
+
+}
+
+.card{
+    background-size: cover;
+    background-color: rgb(75, 191, 216);
+    height: 390px;
+    width: 365px;
+    border-radius: 50px;
+    
+}
+
+.card_img{
+    height: 290px;
+    width: 365px;   
+}
+
+.card_img img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+   
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_text h4 {
+    color: aliceblue;
+    font-weight: 860px;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.container {
+    max-width: 1140px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}

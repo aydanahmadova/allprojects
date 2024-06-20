@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+:root{
+    --white: #FFF;
+    --black: #000;
+    --black2: #1D1D1B;
+    --yellow: #C1D72D;
+    --blue: #486AA6;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: var(--black);
+    background: #F4F5F7;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 20px;
+}
+
+.header_top{
+    margin-left: 80px;
+    margin-right: 50px;
+    padding-top: 33px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_top_right{ 
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.inp{
+    border-radius: 6px;
+    background: rgba(150, 141, 141, 0.16);
+}
+
+.inp input{
+    padding: 10px 13px;
+    outline: none;
+    border: transparent;
+    border-radius: 4px;
+    background: rgba(236, 234, 234, 0.16);
+}
+
+.inp img{
+    margin-top: 11px;
+    margin-right: 6px;
+}
+
+.header_btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--blue);
+    border: transparent;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 75%;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.header_top_icons{
+    display: flex;
+    gap: 20px;
+}
+
+select{
+    border: none;
+    background: #F4F5F7;
+}
+
+.header_main_head{
+    background: var(--blue);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 31px 174px;
+}
+
+.header_main_head select{
+    background: var(--blue);
+    color: var(--white);
+    font-size: 80%;
+    font-weight: 400;
+    outline: none;
+}
+
+.header_main_bcg{
+    background: url('./image/3469432\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 90vh;
+}
+
+.header_main_text h1{
+    max-width: 680px;
+    font-family: "Comfortaa", sans-serif;
+    color: var(--white);
+    font-size: 180%;
+    font-weight: 700;
+    line-height: 53px;
+    padding-top: 150px;
+    padding-left: 130px;
+}
+
+.main_btn{
+    background: var(--yellow);
+    padding: 12px 32px;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 90%;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.dots_icon{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.first{
+    padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.first h3{
+    font-size: 180%;
+    font-weight: 500;
+    text-align: center;
+}
+
+.first_cards{
+    width: 810px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    overflow-x: hidden;
+}
+
+.card_text p{
+    font-size: 100%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card2{
+    padding-top: 88px;
+}
+
+.second{
+    padding-bottom: 68px;
+}
+
+.second h3{
+    font-size: 180%;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 43px; 
+}
+
+.grid_card{
+    position: relative;   
+}
+
+.grid_card_img img{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 9px 0px rgba(69, 69, 69, 0.18);    
+}
+
+.grid_card_text p{
+    text-align: center;
+    padding-top: 28px;
+    font-size: 80%;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.heart_icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: var(--white);
+    padding: 10px 15px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.korzina_icon{
+    position: absolute;
+    top: 57%;
+    left: 20px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 10px 24px;
+    font-size: 70%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.link a{
+    color: #968D8D;
+    font-size: 70%;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+}
+
+.third{
+    padding-bottom: 30px;
+}
+
+.third h3{
+    font-size: 180%;
+    font-weight: 500;
+    padding-bottom: 43px; 
+    text-align: center;
+}
+
+.active_btn{
+    color: var(--white);
+    padding: 10px 33px;
+    background: var(--blue);
+    outline: none;
+    border: transparent;
+    border-radius: 9px;
+    margin-left: 280px;
+    margin-bottom: 46px;
+}
+
+.passive_btn{
+    padding: 10px 33px;
+    outline: none;
+    border: transparent;
+    border-radius: 9px;
+    background: var(--white);
+    border: 0.3px solid #979797;
+    margin-bottom: 46px;
+}
+
+.grid_container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(277px,1fr));
+    gap: 20px;
+}
+
+.grid_card2{
+    background: var(--white);
+    padding-bottom: 16px;
+}
+
+.grid_card2_img{
+    padding: 16px 13px 11px;
+}
+
+.grid_card2_img img{
+    width: 98%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.grid_card2_text{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.grid_card2_text p{
+    text-align: center;
+    font-size: 80%;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.urek_icon{
+    border-radius: 6px;
+    background: #EDECEC;
+    padding: 10px 15px;
+}
+
+.basket_icon{
+    border-radius: 6px;
+    background: #EDECEC;
+    padding: 10px 15px;
+    font-size: 70%;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.fourth{
+    padding-bottom: 180px;
+}
+
+.fourth h3{
+    padding-top: 30px;
+    font-size: 180%;
+    font-weight: 500;
+    padding-bottom: 43px; 
+    text-align: center;
+}
+
+.fourth_bcg{
+    background: url('./image/pet-accessories-still-life-concept-with-grooming-objects-food\ 1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 55vh; */
+}
+
+.flex_cards3{
+    max-width: 1170px;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    overflow-x: hidden;
+}
+
+.flex_card3{
+    min-width: 278px;
+    padding: 76px 42px;
+    background: var(--white);
+    border-radius: 10px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.flex_card3_img{
+    display: flex;
+    justify-content: center;
+}
+
+.flex_card3_text p{
+    text-align: center;
+    font-size: 90%;
+    font-weight: 400;
+    color: var(--black2);
+    padding-top: 17px;
+}
+
+footer{
+    background: rgba(150, 141, 141, 0.40);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_top{
+    border-bottom: 2px solid var(--white);
+}
+
+.footer_img{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 20px;
+}
+
+.footer_bottom{
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer_text{
+    max-width: 145px;
+}
+
+.footer_text p{
+    font-size: 60%;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.footer_inp{
+    border-radius: 6px;
+    background: var(--white);
+}
+
+.footer_inp input{
+    padding: 10px 13px;
+    outline: none;
+    border: transparent;
+    border-radius: 6px;
+    background: rgb(29, 29, 27, 0.17);
+}
+
+.footer_inp img{
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-bottom: -5px;
+}
+
+.section_one{
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider_main_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 230px;
+}
+
+.slider_main_container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section_four{
+    max-width: 1330px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#resp_icon{
+    display: none;
+}

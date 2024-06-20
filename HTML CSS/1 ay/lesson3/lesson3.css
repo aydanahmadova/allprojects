@@ -1,0 +1,36 @@
+h3{
+    color: aquamarine;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900px;
+    font-style: italic;
+}
+
+h2{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    margin: 200px 100px;
+    margin: 200px 100px 150px 400px;
+    margin: 200px 100px 150px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-left: 400px;
+}
+
+h4{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    padding: 200px;
+    padding: 200px 100px;
+    padding: 200px 100px 150px 400px;
+    padding: 200px 100px 150px;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 400px;
+}

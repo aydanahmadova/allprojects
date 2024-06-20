@@ -1,0 +1,58 @@
+.parent_flex{
+    width: 900px;
+    height: 900px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    justify-content: start;
+    /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+    gap: 40px;
+    align-items: center;
+    align-items: end;
+    align-items: start;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.flex_child{
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    border: 3px solid black;
+}
+
+.grid_container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    height: 900px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 200px 100px 120px;
+    grid-template-columns: 277px 277px 277px;
+    grid-template-columns: repeat(5, 180px);
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 4fr 8fr;
+    grid-template-columns: 3fr 9fr;
+    grid-template-columns: 2fr 8fr 2fr;
+    grid-template-columns: repeat(auto-fill, minmax 277px,1fr);
+
+}
+
+.grid_child{
+    height: 80px;
+    border: 3px solid black;
+    background-color: green;
+    color: white;
+    font-size: 60px;
+}

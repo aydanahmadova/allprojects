@@ -1,0 +1,108 @@
+body{
+    background: blue;
+    color: white;
+    font-style: 20px;
+    font-family: "Pixelify Sans",sans-serif;
+    height: 100vh;
+}
+
+.main{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 1170px; */
+    text-align: center;
+    height: 100vh;
+}
+
+#again{
+    padding: 8px 12px;
+    font-size: 140%;
+    font-weight: 500;
+    font-family: "Pixelify Sans",sans-serif;
+    display: block;
+    margin-left: auto;
+}
+
+#ltlfont{
+    text-align: right;
+}
+
+#bigfont{
+    text-align: center;
+    font-size: 300%;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+#score1{
+    width: 140px;
+    height: 80px;
+    /* padding: 20px 50px; */
+    background: white;
+    color: black;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inp{
+    width: 140px;
+    height: 80px;
+    
+}
+
+#msg{
+    text-align: center;
+}
+
+.text{
+    width: 250px;
+    height: 120px;
+    font-size: 140%;
+    text-align: left;
+    margin-left: 65%;
+    
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#inp{
+    background: rgb(7, 5, 148);
+    width: 150px;
+    height: 130px;
+    border: none;
+    outline-color: white;
+    color: white;
+    font-size: 400%;
+    font-family: "Pixelify Sans",sans-serif;
+    text-align: center;
+}
+
+#check{
+    padding: 8px 12px;
+    font-size: 140%;
+    font-weight: 500;
+    font-family: "Pixelify Sans",sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.flex{
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center; */
+    /* width: 80%; */
+}

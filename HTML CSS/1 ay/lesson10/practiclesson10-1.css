@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255,255,255);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.background{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ccc7e6a0d8fd518f9bfaff7a/3dd11a8f-dac7-6d0a-bd1f-7186c46ad4a6.png);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 60px;
+}
+
+.grid_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    margin-top: 40px;
+    gap: 35px;
+    row-gap: 35px;
+}
+
+.grid_card_1{
+    background-color: rgb(246, 68, 66);
+    background-size: cover;
+    padding: 33px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.grid_card_2{
+    background-color: rgb(255, 148, 77);
+    background-size: cover;
+    padding: 33px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.grid_card_3{
+    background-color: rgb(92, 198, 148);
+    background-size: cover;
+    padding: 33px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.grid_card_4{
+    background-color: rgb(52, 184, 208);
+    background-size: cover;
+    padding: 33px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.grid_card_text{
+    text-align: left;
+}
+
+.grid_card_text h4{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.grid_card_text ul{
+    padding-left: 22px;
+}
+
+.grid_card_text li{
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.grid_card_img img{
+    width: 492px;
+    height: 334px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.end{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.end p{
+    color: rgb(15, 15, 15);
+    font-size: 16px;
+}
+
+.end a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    text-decoration: underline;
+    text-decoration-color: rgb(246, 68, 66);
+}
+
+.bottom{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    font-size: 13px;
+    
+}
+
+.bottom p{
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    width: 100%;    
+}
+
+.bottom a{
+    text-decoration: none;
+    color: rgb(184, 202, 240);
+    text-decoration: underline;
+}

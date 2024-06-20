@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.background{
+    background-image: url('https://images03.nicepage.com/c461c07a441a5d220e8feb1a/442c4bddb9895183b06b8a30/16477min.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 752px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: px;
+}
+
+.text1{
+    width: 608px;
+    height: 582px;
+    padding: 30px 50px;
+    line-height: 4;
+}
+
+.text1 h6{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.text1 h1{
+    font-family: "Oswald", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.text1 button{
+    padding: 14px 30px;
+    color: rgb(66, 81, 90);
+    font-size: 14px;
+    font-weight:700;
+    letter-spacing: 2px;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+.text2{
+    width: 532px;
+    height: 582px;
+    padding-top: 300px;
+    padding-left: 120px;
+    
+}
+
+.text2 p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.icon{
+    margin-left: 227px;
+}
+
+.icon i{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.bottom{
+    width: 100%; 
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;  
+}
+
+.bottom p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 13px;
+    padding: 40px;      
+}
+
+.bottom a{
+    text-decoration: none;
+    color: rgb(184, 202, 240);
+    text-decoration: underline;
+}

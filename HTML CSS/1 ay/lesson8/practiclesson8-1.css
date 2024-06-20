@@ -1,0 +1,722 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu{
+    font-size: 16px;
+    font-weight: 200px;
+    margin: 30px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 16px;
+}
+
+.background{
+    background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/7b6b86c717445642acc88705/young-successful-businessman-correcting-tie.jpg);
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+
+}
+
+.first_text{
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+   
+}
+
+.first_text h1{
+    color: rgb(241, 164, 14);
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.first_text p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 750px;
+    line-height: 1.7;
+}
+
+.link{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(241, 164, 14);
+}
+
+.click{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(241, 164, 14);
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 13px 50px;
+    border-color: transparent;   
+}
+
+.click a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 680;
+}
+
+.click:hover{
+    background-color: rgb(221, 164, 50);
+    transition: 0.2s;
+}
+
+.grid_container{
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px;
+}
+
+.grid_container_2{
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px;
+}
+
+.grid_container_3{
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 360px 360px;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+    gap: 20px;
+}
+
+.second{
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    padding: 50px 100px 50px;
+}
+
+.second_text h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left; 
+    padding-left: 20px; 
+}
+
+.second_text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 30px;
+    padding-right: 500px;
+    padding-left: 20px; 
+}
+
+.second_grid_1{
+    background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/6dfc249d806557eaa0d2772f/top-view-image-motivated-employees-working-together-office-official-meeting-concept-business.jpg);
+
+}
+
+.second_grid_2{
+    background-color: rgb(241, 164, 14);
+
+}
+
+.second_grid_3{
+    background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/1b30859eb975565caff9537a/front-view-team-meeting-mock-up.jpg);
+    object-fit: cover;
+}
+
+.second_grid_1 i{
+    background-color:rgb(241, 164, 14);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.second_grid_2 i{
+    background-color:rgb(26, 26, 26);
+    color: rgb(241, 164, 14);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.second_grid_3 i{
+    background-color:rgb(241, 164, 14);
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+i{
+    height: 120px;
+    width: 120px;
+    font-size: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 37px;
+
+}
+
+.second_grid_text{
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.second_grid_text h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.second_grid_text ul{
+    font-size: 16px;
+    line-height: 2.7;   
+}
+
+.third{
+    background-color: rgb(241, 164, 14);
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.third_text h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 200px;
+
+}
+
+.phone{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 26, 26);
+    padding: 10px 100px;
+    border-color: transparent;
+    letter-spacing: 3px;
+}
+
+.phone a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.phone a:hover{
+    color: rgb(221, 164, 50);
+    transition: 0.2s;
+}
+
+.fourth{
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    padding: 20px 100px 20px;
+}
+
+.fourth_grid{
+    background-color: rgb(26, 26, 26);
+    font-family: "Open Sans", sans-serif;
+}
+
+.fourth_grid i{
+    background-color:rgb(241, 164, 14);
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.grid_text h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 750;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.grid_text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.fifth{
+    background-color: rgb(26, 26, 26);
+    padding-top: 20px;
+    padding-bottom: 30px; 
+    
+}
+
+.fifth_grid .grid_text{
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    /* width: 270px;
+    height: 250px; */
+}
+
+ .fifth_grid .grid_text h5{  
+    background-color: rgb(26, 26, 26); 
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 650;
+    padding-top: 70px; 
+    padding-left: 40px;
+    text-align: left;
+}
+
+.fifth_grid .grid_text p{ 
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 10px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.fifth p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(241, 164, 14);
+}
+
+.sixth{
+    background-image: url(https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/55870c3441345167be16bfa2/silhouette-business-people-discussion-meeting-cityscape-team-concept.jpg);
+    background-position: top;
+    width: 100%;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 120px;
+}
+
+.sixth h2{
+    font-family: "Montserrat", sans-serif;;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.sixth h3{
+    font-family: "Montserrat", sans-serif;;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+
+.sixth p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.seventh{
+    background-color: rgb(26, 26, 26);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+
+.seventh_grid{
+    /* width: 260px;
+    height: 350px; */
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.seventh_grid h5{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: left;
+}
+
+.seventh_grid i{
+    /* background-color:rgb(26, 26, 26); */
+    color: rgb(241, 164, 14);
+    font-size: 30px;
+    padding: 20px;
+    display: inline;
+}
+
+.seventh_grid img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+.seventh p{
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.seventh a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.eighth{
+    background-color: rgb(241, 164, 14);
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.eighth_text{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-right:100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.top{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+.bottom{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.9;
+    padding-top: 30px;
+}
+
+.eighth_card{
+    height: 261px;
+    width: 505px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(26, 26, 26);
+    background-color: rgb(255, 255, 255); 
+    margin-right: 100px;  
+}
+
+.eighth_card p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    
+}
+
+.eighth_card h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-left: 30px; 
+    padding-right: 30px;
+    
+}
+
+.click_2{
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 26, 26);
+    margin-top: 30px;
+    margin-left: 5px;
+    padding: 13px 50px;
+    border-color: transparent;   
+}
+
+.click_2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 680;
+}
+
+.click_2:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.click_2:hover a {
+    color: rgb(26, 26, 26);
+    
+}
+
+.ninth{
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ninth h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.ninth p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.ninth_grid{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.ninth_grid h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.number{
+    background-color: rgb(241, 164, 14);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 196px;
+    width: 196px;
+}
+
+.number h1{
+    font-size: 72px;
+    font-weight: 700;
+    height: 82px;
+    width: 79px;
+    padding-top: 50px;
+    padding-left: 55px;
+}
+
+.tenth{
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2cc1a632c8c5511c86638369/jhhhhhh.jpg);
+    background-position: top;
+    width: 100%;
+    /* height: 100vh; */
+    color: rgb(255, 255, 255);
+    padding-top: 70px;
+    
+}
+
+.tenth_1{
+    text-align: left;
+
+}
+
+.tenth_grid h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.tenth_grid p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.tenth_grid a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tenth_grid{
+    padding: 20px;
+    
+}
+
+.tenth_grid i{
+    font-size: 22px;
+    color: rgb(241, 164, 14);
+    display: inline;
+    
+}
+
+.tenth_grid h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.tenth_grid p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.tenth_2 .short form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.tenth_2 form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+}
+
+.tenth_2 form label{
+    color: white;
+}
+
+.tenth_2 form input{
+    height: 45px;
+    padding: 10px 12px;
+    background-color: rgb(255, 255, 255);
+    border: transparent;
+    outline: none;
+    /* color: rgba(255, 255, 255, 0.692); */
+    font-size: 17px;
+    /* border-bottom: 1px solid rgb(255, 255, 255); */
+}
+
+.tenth_2 form input::placeholder{
+    color: rgb(128, 126, 126);
+}
+
+.click_submit{
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 196, 60);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 136px;
+    margin: 0 auto;
+    border-color: transparent;
+    letter-spacing: 2px;
+
+}
+
+.click_submit a{
+    text-decoration: none;
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+}
+
+.click_submit:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+
+.click_submit:hover a {
+    color: rgb(26, 26, 26);
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.end p {
+    font-size: 13.5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+    padding: 45px;
+    width: 100%;
+    padding-left: 450px;
+    padding-right: 450px;
+    
+}
+
+.end a {
+    color: rgb(182, 241, 204);
+    text-decoration: none;
+    text-decoration: underline;
+}

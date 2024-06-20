@@ -1,0 +1,31 @@
+.button{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 150px;
+    margin: 50px;
+    font-size: 20px;
+    
+
+}
+
+.subs {
+    background-color: blue;
+    padding-left: 50px;
+}
+
+.join{
+    background-color: green;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+}
+
+.click{
+    color: white;
+    height: 100px;
+    width: 150px;
+    font-size: 20px;
+    padding-right: 100px;
+    margin-left: 0px;
+}

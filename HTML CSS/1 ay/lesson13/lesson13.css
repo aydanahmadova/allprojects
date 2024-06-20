@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anim{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: rotate 2s infinite;
+}
+
+.aos{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+@keyframes rotate{
+    /* from{
+        top: 0;
+        left: 0;
+    }
+
+    to{
+        top: 200px;
+        left: 200px;
+    } */
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+
+    25%{
+        top: 200px;
+        left: 0;
+    }
+
+    50%{
+        top: 200px;
+        left: 200px;
+    }
+
+    75%{
+        top: 0;
+        left: 200px;
+    }
+
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+

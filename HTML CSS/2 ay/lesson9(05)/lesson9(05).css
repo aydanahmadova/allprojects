@@ -1,0 +1,116 @@
+.animation{
+    width: 120px;
+    height: 120px;
+    background-color: aqua;
+    border: 3px solid black;
+    animation-name: AA;
+    animation-duration: 3s;
+    position: absolute;
+    animation-delay: 4s;
+    /* animation-iteration-count: infinite; */
+}
+
+/* @keyframes AA{
+    from{
+        background-color: aqua;
+        left: 0;
+        top: 0;
+    }
+
+    to{
+        background-color: yellowgreen;
+        left: 20%;
+        top: 20%;
+    }
+} */
+
+@keyframes AA{
+    0%{
+        background-color: aqua;
+        left: 0;
+        top: 0;
+    }
+
+    25%{
+        background-color: deeppink;
+        left: 500px;
+        top: 0;
+    }
+
+    50%{
+        background-color: lime;
+        left: 500px;
+        top: 500px;
+    }
+
+    75%{
+        background-color: deepskyblue;
+        left: 0;
+        top: 500px;
+    }
+
+    100%{
+        background-color: plum;
+        left: 0;
+        top: 0;
+    }
+}
+
+.transform_translate{
+    width: 120px;
+    height: 120px;
+    background-color: lime;
+    border: 2px solid black;
+    transform: translate(50px,100px);
+    transform: translate(-50px,-100px);
+    transform: translateX(50px);
+    transform: translateX(-50px);
+    transform: translateY(-50px);
+    transform: translateY(50px);
+}
+
+.transform_rotate{
+    width: 120px;
+    height: 120px;
+    background-color: deeppink;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    transform: rotate(50deg);
+    transform: rotate(-50deg);
+}
+
+.transform_scale{
+    width: 120px;
+    height: 120px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    transform: scale(2,3);
+    transform: scale(-2,-3);
+    transform: scaleX(3);
+    transform: scaleX(-3);
+    transform: scaleY(3);
+    transform: scaleY(-3); 
+}
+
+.transform_skew{
+    width: 120px;
+    height: 120px;
+    background-color: olive;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    transform: skew(20deg,40deg);
+    transform: skew(-20deg,-30deg);
+    transform: skewX(40deg);
+    transform: skewX(-40deg);
+    transform: skewY(30deg);
+    transform: skewY(-30deg);
+   
+    
+}

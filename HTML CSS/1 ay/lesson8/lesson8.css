@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_container{
+    max-width: 1140px;
+    background-color: aqua;
+    height: auto;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.grid_child{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.grid_child i{
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+
+.grid_child:hover i{
+    color: red;
+    font-size: 70px;
+}
+
+.grid_child:hover{
+    background-color: aquamarine;
+}

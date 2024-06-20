@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --orange: #FF5C00;
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FFAB08;
+    --orange2: #FF7020;
+    --white2: #F2F2F3;
+    --white3: #F9F9F9;
+}
+
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    color: var(--black);    
+    background: var(--white3);
+}
+
+.background{
+    background: url('./image/Ellipse\ 1.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header_top{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header_main{
+    display: flex;
+    justify-content: center;
+}
+
+.header_main img{
+    width: 784px;
+}
+
+.btns{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+}
+
+button{
+    font-size: 80%;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.first{
+    max-width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;  
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+
+/* .first_right{
+    max-width: 984px;
+} */
+
+.first_right h3{
+    padding-left: 20px;
+    font-size: 200%;
+    font-weight: 600;
+    line-height: 48px;
+    padding-bottom: 20px;
+}
+
+.left_card{
+    min-width: 300px;
+    margin-top: 68px;
+    padding: 24px 16px;
+    background: var(--white);
+    border-radius: 18px;
+}
+
+.left_card_title{
+    font-size: 120%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.korzina_btn{
+    background: var(--white2);
+    border-radius: 6px;
+    width: 38px;
+    height: 26px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-top: 1px solid #F2F2F3;
+}
+
+.spisok{
+    display: flex;
+    gap: 5px;
+}
+
+.spisok_text{
+    font-size: 70%;
+    font-weight: 520;
+    line-height: 20px;
+}
+
+.inp{
+    border-radius: 12px;
+    background: var(--white2);
+    display: flex;
+    align-items: center;
+    width: 84px;
+    height: 40px;
+}
+
+.inp input{
+    width: 14px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: var(--white2);
+}
+
+.inp_btn{
+    background: var(--white2)
+}
+
+.itogo{
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange_btn{
+    background: var(--orange2);
+    color: var(--white);
+    font-size: 80%;
+    font-weight: 400;
+    width: 100%;
+    padding: 11px 72px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid_container{
+    max-width: 984px;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill,minmax(300px,1fr)); */
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+}
+
+.grid_card{
+    padding: 12px;
+    border-radius: 18px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.grid_card_img img{
+    min-width: 276px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.grid_card_text{
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    /* padding-left: 6px;
+    padding-right: 6px; */
+}
+
+.add_btn{
+    background-color: var(--white2);
+    border-radius: 12px;
+    padding: 11px 112px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bcg{
+    background: var(--white);
+}
+
+footer{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_sm{
+    padding-top: 30px;
+    display: flex;
+    gap: 80px;
+}
+
+.footer_bottom{
+    padding-top: 30px;
+}

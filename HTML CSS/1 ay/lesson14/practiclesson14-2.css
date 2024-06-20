@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", "sans-serif";
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(26, 26, 26);
+}
+
+.container {
+    max-width: 1140px;
+    margin:auto;
+    margin-bottom: 60px;
+}
+
+.main_text h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Montserrat", "sans-serif";
+    font-size: 55px;
+    font-weight: 400;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.grid_container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    margin-top: 40px;
+    gap: 24px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    height: 460px;
+}
+
+.card_img {
+    padding-left: 3px;
+}
+
+.card_img img {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+.card_text {
+    text-align: center;
+}
+
+.card_text h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card_text p {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.click{
+    margin-top: 20px;
+}
+
+.click a{
+    color: rgb(15, 15, 15);
+    font-weight: 400;
+    text-align: center;
+}
+
+.bottom{
+    width: 100%; 
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction:column;
+    text-align: center;   
+}
+
+.bottom p{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 40px;      
+}
+
+.bottom a{
+    text-decoration: none;
+    color: rgb(238, 177, 109);
+    text-decoration: underline;
+}

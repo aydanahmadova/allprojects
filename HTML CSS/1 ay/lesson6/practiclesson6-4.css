@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.title{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 80px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    padding: 14px;
+    
+}
+
+.phone img{
+    width: 24px;
+    height: 24px;
+}
+
+.phone a{
+    color: rgb(17, 17, 17);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.firstbox{
+    background-color: rgb(251, 196, 60);
+    color: rgb(17, 17, 17);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.firstbox h2{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 100px 200px 0px;
+}
+
+.firstbox p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin: 0px 378px 60px; 
+    text-align: center;
+    line-height: 1.7;
+}
+
+.secondbox{
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: row;
+}
+
+.secondbox_img img{
+    height: 490px;
+    width: 490px;
+    border-radius: 50%;
+}
+
+.secondbox_text{
+    height: 427px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 50px;
+    padding: 100px 10px;
+    
+}
+
+.secondbox_text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.secondbox_text h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 30px; 
+}
+
+.secondbox_text h5 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.secondbox_text a{
+    color: rgb(131, 61, 231);
+    text-decoration: none;
+}
+
+.secondbox_all {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 60px;
+}
+
+.gallery {
+    margin-top: 60px;
+}
+
+.gallery h2 {
+    color: rgb(17, 17, 17);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* .container {
+    max-width: 1140px;
+    margin: 100px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container_1{
+    width: 1098px;
+    height: 786px;
+    margin: 10px 80px;
+    margin-left: 140px;
+}
+
+.container_1 h2{
+    color: rgb(17, 17, 17);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+} */
+
+.container_1_card{
+    background-color: white;
+    height: 360px;
+    width: 360px;
+
+}
+
+.container_2_card .card{
+    width: 360px;
+    height: 360px;
+    padding: 3px;
+}
+
+.thirdbox{
+    color: rgb(17, 17, 17);
+    margin-top: 120px;
+}
+
+.thirdbox_all {
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdbox_img img{
+    height: 490px;
+    width: 490px;
+    border-radius: 50%;
+}
+
+.thirdbox_text{
+    height: 427px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 50px;
+    padding: 100px 10px;
+    
+}
+
+.thirdbox_text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.thirdbox_text h3{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 30px; 
+}
+
+.thirdbox_text h5{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.thirdbox_text a{
+    color: rgb(131, 61, 231);
+    text-decoration: none;
+}
+
+.fourthbox{
+    background-color: rgb(255, 249, 235);
+    height: 379px;
+    width: 100%;
+    padding: 60px;
+
+}
+
+.fourthbox h2{
+    color: rgb(17, 17, 17);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.fourthbox_img{
+    display: flex;
+    justify-content: space-between;
+    height: 175px;
+    margin-top: 80px;
+}
+
+.card{
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    height: 91px;
+     
+}
+
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.fourthbox_img .card img{
+    width: 64px;
+    height: 64px;
+}
+
+.fifthbox{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.fifthbox h2{
+    color: rgb(17, 17, 17);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.fifthbox_img{
+    display: inline;
+    padding: 87px;
+    margin-top: 10px;
+    height: 300px;
+    width: 290px;
+}
+
+.fifthbox_img img{
+    height: 300px;
+    width: 290px;
+    padding: 2px;
+}
+
+.fifthbox p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+
+.fifthbox a{
+    text-decoration: none;
+    color: rgb(131, 61, 231);
+    
+}
+
+.sixthbox{
+    background-color: rgb(131, 61, 231);
+    font-family: "Open Sans", sans-serif;
+    height: 380px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sixthbox h2{
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 50px;
+    text-align: center;
+}
+
+.click{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.click_box form{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+}
+
+.click_box form label{
+    color: white;
+}
+.click_box form input{
+    height: 45px;
+    padding: 10px 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+.click_box form input::placeholder{
+    color: rgba(255, 255, 255, 0.692);
+}
+
+button{
+    color: rgb(17, 17, 17);
+    background-color: rgb(251, 196, 60);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
+    border-color: transparent;    
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom p{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51);
+    padding: 45px;
+    width: 100%;    
+}
+
+.bottom a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-decoration: underline;
+}
